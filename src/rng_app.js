@@ -1,7 +1,7 @@
 /*!
 * RNG App 0.0.1-mbuild-0.0.4 - <development>
 * License - MIT License
-* Copyright 2023
+* Copyright 2024
 */
 
 
