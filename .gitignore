@@ -1,0 +1,8 @@
+
+
+# Custom
+
+*.secret.*
+*.x.*
+.env
+
