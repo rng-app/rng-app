@@ -1,5 +1,5 @@
 /*!
-* RNG App 0.0.1-mbuild-0.0.4 - <development>
+* RNG App 0.0.1-mbuild-0.1.0 - <development>
 * License - MIT License
 * Copyright 2024
 */
@@ -63,9 +63,9 @@ class RNG {
 
         try {
             elm.outerHTML = rendered_f()
-                .replace(/\{\$([\w-]+)(:\w+)?\}/g, function (match, key, defaultValue) {
-                    defaultValue = defaultValue ? defaultValue.slice(1) : '';
-                    return elm.getAttribute(key.toLowerCase()) || defaultValue;
+                .replace(/\{\$([\w-]+)(?::([^}]+))?\}/g, function (match, key, defaultValue) {
+                    defaultValue =  defaultValue !== undefined ? defaultValue : '';
+                    return elm.hasAttribute(key.toLowerCase()) ? elm.getAttribute(key.toLowerCase()) : defaultValue;
                 });
         } catch (error) {
             console.log(error);
