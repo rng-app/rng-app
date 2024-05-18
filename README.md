@@ -131,12 +131,12 @@ Here's a quick example of how you can define and use a simple component:
 RNG App is an open-source project and contributions are welcome! Whether you're fixing bugs, adding new features, or improving documentation, your help is appreciated.
 
 ### How to Contribute
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Open a Pull Request.
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Make your changes.
+- Commit your changes (git commit -m 'Add new feature').
+- Push to the branch (git push origin feature-branch).
+- Open a Pull Request.
 Please ensure your code adheres to the existing coding conventions and includes appropriate tests.
 
 ## License
