@@ -139,6 +139,10 @@ RNG App is an open-source project and contributions are welcome! Whether you're 
 - Open a Pull Request.
 Please ensure your code adheres to the existing coding conventions and includes appropriate tests.
 
+> ☝️ For VS Code users, there is an extension called `string-highlight` (ID: `jenkey2011.string-highlight`), which is Syntax highlighter for the code in string like ```var btn = `<div></div>`;```, so it wil be easy to write HTML-coded strings as a RNG component.
+
+
+
 ## License
 RNG App is licensed under the MIT License. See the LICENSE file for more information.
 
