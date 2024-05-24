@@ -1,8 +1,35 @@
-# RNG App - React-like Components In Your Simple HTML
+<h1 align="center">
+ RNG App - React-like Components In Your HTML
+</h1>
 
-_(This is a new project.)_
+<p align="center">
+    <i>(This is a new project.)</i>
+    <br>
+</p>
 
-Welcome to **RNG App**, a lightweight JavaScript library that brings the power of React-like components to your simple HTML pages. With RNG App, you can define and use custom components with ease, directly in your HTML files.
+> Welcome to **RNG App**, a lightweight JavaScript library
+> that brings the power of React-like components to your simple HTML pages.
+> With RNG App, you can define and use custom components with ease,
+> directly in your HTML code.
+
+<p align="center">
+    <a href="https://github.com/princerb/rng-app/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="Released under the MIT License" />
+    </a>
+    <a href="https://github.com/princerb/rng-app/blob/master/CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome" />
+    </a>
+    <a href="https://discord.gg/zN9KFU9aAg">
+    <img src="https://img.shields.io/discord/1243289437404926123?color=5865F2" alt="Chat with us on Discord">
+    </a>
+</p>
+
+
+### Features:
+- custom and reusable components within HTML code
+- lightweight and efficient.
+- fast and simple
+- and so much more...
 
 ## Getting Started
 
@@ -95,8 +122,6 @@ To get started with RNG App, simply include the `src/rng_app.js` script in your 
 
 5. That is it! It is all set now!
 
-
-
 ### Example
 Here's a quick example of how you can define and use a simple component:
 
@@ -109,7 +134,7 @@ Here's a quick example of how you can define and use a simple component:
 </head>
 <body>
 
-    <GreetingComponent name="World"></GreetingComponent>
+    <GreetingComponent rng name="World"></GreetingComponent>
 
     <RNGComponent name="GreetingComponent">
         <div>
@@ -127,19 +152,26 @@ Here's a quick example of how you can define and use a simple component:
 </html>
 ```
 
+### You can find more in the [Components documentation](/docs/COMPONENTS.md).
+
 ## Contributing
 RNG App is an open-source project and contributions are welcome! Whether you're fixing bugs, adding new features, or improving documentation, your help is appreciated.
 
+- Join our Discord server: https://discord.gg/zN9KFU9aAg
+
 ### How to Contribute
 - Fork the repository.
-- Create a new branch (git checkout -b feature-branch).
+- Create a new branch (git checkout -b f-make-better).
 - Make your changes.
-- Commit your changes (git commit -m 'Add new feature').
-- Push to the branch (git push origin feature-branch).
+- Commit your changes (git commit -m 'Add new feature to make better').
+- Push to the branch (git push origin f-make-better).
 - Open a Pull Request.
 Please ensure your code adheres to the existing coding conventions and includes appropriate tests.
 
-> ☝️ For VS Code users, there is an extension called `string-highlight` (ID: `jenkey2011.string-highlight`), which is Syntax highlighter for the code in string like ```var btn = `<div></div>`;```, so it wil be easy to write HTML-coded strings as a RNG component.
+> ☝️ For VS Code users, there is an extension called `string-highlight`
+> (ID: `jenkey2011.string-highlight`), which is Syntax highlighter for
+> the code in string like ```var btn = `<div></div>`;```, so it wil be
+> easy to write a HTML-coded RNG component as a string of JavaScript.
 
 
 
