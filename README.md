@@ -173,7 +173,10 @@ Please ensure your code adheres to the existing coding conventions and includes 
 > the code in string like ```var btn = `<div></div>`;```, so it wil be
 > easy to write a HTML-coded RNG component as a string of JavaScript.
 
+## Sponsors
+We are grateful to our sponsors who support the development of this open-source project. Their contributions help us continue to improve and maintain the project.
 
+If you're interested in becoming a sponsor, feel free to contact us! All financial contributions, no matter the size, are greatly appreciated.
 
 ## License
 RNG App is licensed under the MIT License. See the LICENSE file for more information.
