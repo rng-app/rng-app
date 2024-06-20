@@ -70,7 +70,7 @@ If you don't specify a default value, then the empty string will be rendered.
     <MyFirstComponent rng to-whom="Peter"></MyFirstComponent>
 
     <!-- Without parameter (default value) -->
-    <MyFirstComponent></MyFirstComponent>
+    <MyFirstComponent rng></MyFirstComponent>
 </div>
 ```
 
